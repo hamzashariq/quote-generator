@@ -19,6 +19,7 @@ async function getQuotes() {
     newQuote();
   } catch (error) {
     alert('Something went wrong, please try again later.');
+    console.error(error);
   }
 
   hideLoader();
