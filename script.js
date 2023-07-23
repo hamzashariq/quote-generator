@@ -18,7 +18,7 @@ async function getQuotes() {
     quotes = localQuotes.concat(await response.json());
     newQuote();
   } catch (error) {
-    alert('Something went wrong, please try again later.');
+    alert('Something went wrong, please try again later!');
     console.error(error);
   }
 
